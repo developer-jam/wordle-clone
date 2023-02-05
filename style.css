@@ -1,0 +1,105 @@
+html{height: 100vh; width: 100%;}
+
+body{
+    background-color: lightgrey;
+    font-family: Quicksand;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: lightblue;
+    box-shadow: black 2px 1px 5px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0.1em 2em;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+    min-width: 300px;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    font-size: 1.5em;
+    padding: 0 2rem;
+    width: 33%;
+}
+
+a{
+    color: black;
+}
+
+.container{width: 100%; padding-top: 20px;}
+
+.game-container{
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.blocks{
+    height: 50px;
+    width: 50px;
+    border: 2px solid darkslategrey;
+    background-color: lightblue;
+    margin-bottom: 5px;
+}
+
+.correct{
+    background-color: lightgreen;
+    color: green;
+}
+
+.incorrect{
+    background-color: darkslategrey;
+}
+
+.in-word{
+    background-color: palegoldenrod;
+    color: darkgoldenrod;
+}
+
+input{
+    text-align: center;
+    font-size: 2em;
+}
+
+.keyboard-container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.key-row{margin: 5px 5px;}
+.func-keys{min-width: 200px;}
+
+button{
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 1.15rem;
+    background-color: lightsteelblue;
+    box-shadow: black 2px 1px 2px;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.keys:active{
+    background-color: ghostwhite;
+    box-shadow: lightslategrey 1px 0 1px;
+    transform: translateY(2px);
+}
+
+#btn-play{background-color: forestgreen;}
+#btn-del{background-color: darkgoldenrod;}
+#function-keys{margin-top: 10px;}
+
