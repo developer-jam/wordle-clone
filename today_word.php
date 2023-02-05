@@ -1,4 +1,7 @@
 <?PHP
+
+    //The original idea was to get the words for each dfday from a JSON file but a SQL database will be better and easier...
+
     $data = file_get_contents('words.json');
     $words_file = json_decode($data, true);
     $no_word = true;
